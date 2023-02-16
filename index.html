@@ -32,7 +32,7 @@
          res.end( fs.readFileSync(__dirname + pathname) )
         } catch(e) {
          res.writeHead(404, 'Not Found')
-         res.end(<h1>404 Not Found~<h1>')
+         res.end(<h1>404 Not Found~</h1>')
         }
       }
     }).listen(8080)
